@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/bg"
+    android:padding="16dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="OVERCLOCK//UNIFIED" android:textColor="@color/neon"
+        android:textStyle="bold" android:textSize="20sp" android:layout_marginTop="16dp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="$ control panel_" android:textColor="@color/dim"
+        android:fontFamily="monospace" android:textSize="13sp" android:layout_marginBottom="12dp" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginBottom="12dp">
+        <Button android:id="@+id/btnStartHud" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="START HUD" android:backgroundTint="@color/neon"
+            android:textColor="@color/bg" android:layout_marginEnd="8dp" />
+        <Button android:id="@+id/btnStopHud" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:text="STOP" android:backgroundTint="@color/panel"
+            android:textColor="@color/cyan" />
+    </LinearLayout>
+
+    <GridView android:id="@+id/appGrid" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:numColumns="4"
+        android:verticalSpacing="18dp" android:horizontalSpacing="10dp" />
+</LinearLayout>

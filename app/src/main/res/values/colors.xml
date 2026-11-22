@@ -1,0 +1,14 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#040A08</color>
+    <color name="panel">#102218</color>
+    <color name="neon">#39FF14</color>
+    <color name="neonDim">#2A8F1E</color>
+    <color name="cyan">#00E5FF</color>
+    <color name="purple">#BD00FF</color>
+    <color name="amber">#FFB020</color>
+    <color name="txt">#D2FFDC</color>
+    <color name="dim">#5A826E</color>
+    <color name="dimGreen">#78AA8C</color>
+</resources>

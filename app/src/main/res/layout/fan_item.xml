@@ -1,0 +1,7 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fanIcon" android:layout_width="54dp" android:layout_height="54dp"
+    android:background="@drawable/bg_icon"
+    android:padding="6dp" android:clickable="true"
+    android:focusable="true" />
